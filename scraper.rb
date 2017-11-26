@@ -12,8 +12,8 @@ class Array
     :inline
   end
 end
-baseurl = "http://www.lobbyistsregister.vic.gov.au/lobbyistsregister"
-html = ScraperWiki.scrape("http://www.lobbyistsregister.vic.gov.au/lobbyistsregister/index.cfm?event=whoIsOnRegister")
+baseurl = "https://www.lobbyistsregister.vic.gov.au/lobbyistsregister"
+html = ScraperWiki.scrape("https://www.lobbyistsregister.vic.gov.au/lobbyistsregister/index.cfm?event=whoIsOnRegister")
 
 # Next we use Nokogiri to extract the values from the HTML source.
 
